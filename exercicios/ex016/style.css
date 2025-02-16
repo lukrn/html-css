@@ -1,0 +1,25 @@
+ 
+body{
+    background-attachment: fixed;
+    font-family:cursive;
+    background-image: linear-gradient(to right, #478940,#093c22);
+}
+h1{color: rgb(95, 190, 138);
+  text-shadow:2px 2px 5px#0d281aad;
+  text-align: center;
+}
+p{
+  font-size: 20px;
+  
+  color: #000000
+   ;
+}
+main{
+   
+    background-color: #6d896a;
+  width: 550px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #1823178a;
+}

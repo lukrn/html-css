@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(211, 171, 248);
+}
+h1{
+    color: rgb(83, 16, 145);
+}
+h2{
+    color: rgb(141, 70, 167);
+}
+p{
+    color: rgb(75, 47, 14);
+    text-align: justify;
+    text-indent: 10px;
+  
+}
+#principal{
+    background-color: rgba(255, 255, 255, 0.359);
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.aiai{
+    color: brown;
+    font-weight: bold;
+    font-family: cursive;
+}

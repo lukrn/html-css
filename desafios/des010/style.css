@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url(pacote-projeto-d010/fontes/idroid.otf)format(opentype);
+}
+@font-face {
+    font-family: 'site' ;
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format(opentype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0px;
+}
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(131, 201, 131);
+    font-family:  Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+header{
+    color: white;
+ background-image: linear-gradient(to top ,rgb(25, 40, 22)60%, rgb(134, 255, 134));
+ background-attachment: fixed;
+ text-align: center;
+ height: 220px;
+    margin:auto;
+    padding:20px;
+}
+nav{
+    text-align: left;
+    background-color: rgb(38, 57, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 10px;
+    transition-duration: 1s;
+    
+    
+}
+#principal{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    transition-duration: 1s;
+}
+.home{
+    color: rgba(255, 255, 255, 0.6);
+    padding-right: 10px;
+    transition-duration: 0.5s ;
+    border-radius: 3px;
+
+
+}
+.home:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgba(34, 52, 30, 0.6) ;
+}
+.peppa{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+    text-indent: 10px;
+    margin: auto;
+}
+h2{
+    font-family: 'android';
+    color: green;
+}
+h1{
+  
+   font:  normal 3em 'bebas neue', arial , serif;
+
+}
+h3{
+    font-family: 'android';
+    background-color: rgba(1, 152, 1, 0.367);
+    border-radius: 2px;
+    padding: 2px;
+    color: green;
+    
+}
+main{
+    margin:auto;
+    background-color: white;
+    padding: 1px 20px 20px 20px;
+    
+    max-width: 800px;
+    min-width: 320px;
+}
+main img{
+    margin: auto;
+    display: block;
+    width: 100%;
+
+}
+main .imagem{
+    max-width: 320px;
+    display: block;
+}
+article{
+    background-color: rgb(0, 83, 0);
+    margin: auto;
+    width: 800px;
+    
+}
+footer{
+    background-color: white;
+    margin: 0px 15px;
+    padding: 10px;
+    margin: auto;
+    width: 800px;
+}
+aside{
+    background-color: rgb(166, 254, 166);
+    border-radius: 10px;
+    padding: 0px 10px 10px 10px;
+    margin: auto;
+   
+}
+.final{
+    background-color: rgb(0, 83, 0);
+    text-align: center;
+    font: normal bold 16px arial;
+    color: rgba(155, 255, 142, 0.444);
+    margin: auto;
+    
+}
+.ultimo{
+    font: normal bold 20px  Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 83, 0, 0.456);
+    color: white;
+    padding: 10px 15px 15px 15px;
+    margin: 3px;
+  
+}
+ul{
+    
+    height:auto;
+    width: auto;
+    margin: auto;
+    text-align: justify;
+    margin: auto;
+    width: 800px;
+   
+}
+span{
+    color: rgb(80, 176, 80);
+    font: normal bold 16px arial;
+}
+a{
+    color: rgb(80, 176, 80);
+    font: normal bold 16px arial;
+    text-decoration: none;
+    background-color: rgba(25, 136, 25, 0.356);
+    width: auto;
+    height: auto;
+    border-radius: 2px;
+}

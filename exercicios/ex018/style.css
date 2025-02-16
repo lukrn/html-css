@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'hit' ;
+    src: url('hit_me_punk/Hit\ me\,\ punk!\ 01.ttf') format("truetype");
+}
+@font-face{
+    font-family: 'death';
+    src: url('death_mohawk/DeathMohawk_PERSONAL_USE_ONLY.otf') format('opentype');
+}
+@font-face {
+    font-family:'goth';
+    src: url(gothic_war/Gothic\ War.otf) format('opentype');
+}
+
+body{
+    background-attachment: fixed;
+   background-image: linear-gradient(to bottom,rgb(0, 0, 0), rgb(195, 0, 255));
+}
+  
+h1{
+    color: white;
+    font:  normal 6em 'death', serif;
+    text-align: center;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.441);
+}
+h2{
+    color: white;
+    font:  normal 3em 'goth';
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.458);
+}
+p{
+    color: white;
+    font:  normal 20px 'goth';
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.567);
+}
+main{
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgb(0, 0, 0);
+    background-color: rgb(35, 2, 42);
+   
+    
+    padding: 20px;
+    margin: auto;
+}

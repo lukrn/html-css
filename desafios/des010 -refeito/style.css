@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family:'android' ;
+    src: url(pacote-projeto-d010/fontes/idroid.otf)format(opentype);
+}
+
+:root
+   { 
+    --cor1: #c5ebd6;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor1);
+}
+header{
+    background-image: linear-gradient(to top, var(--cor6) ,var(--cor3));
+    color: white;
+    padding: 20px;
+}
+#principal{
+    font-family: 'bebas neue', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+#paragrafo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: var(--cor6);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+}
+a{
+    color: rgba(255, 255, 255, 0.663);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+a:hover{
+    background-color: rgba(255, 255, 255, 0.63);
+    color: #063d1e;
+}
+main{
+    padding: 0px 20px 20px 20px;
+    margin: auto;
+    max-width: 700px;
+    min-width: 300px;
+    background-color: white;
+}
+h1{
+    padding: 10px 0px;
+    font-family: 'android';
+    color: var(--cor5);
+}
+h2{
+    padding: 3px 2px;
+    background-color: var(--cor3);
+    color: var(--cor5);
+    border-radius: 10px;
+    font: normal normal 20px 'android', arial;
+}
+aside{
+    background-color: var(--cor2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.668);
+    border-radius: 20px;
+    padding: 0px 0px 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.aside{
+    padding: 20px 0px 0px 20px;
+}
+#aprenderM{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+ul{
+    columns: 2;
+}
+footer{
+    background-color: #063d1e;
+    color: var(--cor1);
+    font: normal bolder 16px arial;
+    text-align: center;
+}

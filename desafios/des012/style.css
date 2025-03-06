@@ -31,29 +31,41 @@ a:hover{
 }
 section{
     font-family: 'sriracha', Arial, Helvetica, sans-serif;
+    line-height: 2em;
+}
+section > p{
+    padding-bottom: 20px;
 }
 .normal{
     background-color: white;
 
-    padding: 40px 10px;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.395);
+    padding: 10vh 10px;
 }
 .imagem{
-    background-color: rgba(93, 92, 92, 0.285);
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.405);
+}
+.imagem p {
+    background-color: rgba(0, 0, 0, 0.285);
     width: 300px;
-    box-shadow: 10xp 10px 15px rgba(0, 0, 0, 0.362);
+    
     padding: 20px 20px;
     color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    border-radius: 5px;
 }
 #img1{
     background-image: url(pacote-d012/imagens/background001.jpg);
     background-size: 700px;
     padding:50px 0px;
+    background-position: right center;
+    background-size: cover;
 }
 #img2{
     background-image: url(pacote-d012/imagens/background002.jpg);
     background-size: 700px;
     padding:50px 0px;
+    background-position: left left;
+    background-size: cover;
 }
 footer{
     background-color: black;
